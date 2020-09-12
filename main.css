@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'SF Pro Rounded Regular';
+    src: url('./fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Noteworthy';
+    src: url('./fonts/Noteworthy-Lt.ttf')
+}
+
+@font-face {
+    font-family: 'SF compact rounded';
+    src: url('./fonts/FontsFree-Net-SF-Compact-Rounded-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'SF compact';
+    src: url('./fonts/sf-compact-display-thin-58646eb43a785.otf')
+}
+
+@media (max-width: 992px){
+    .logo-container p{
+        display: none;
+    }
+
+    .home-bg{
+        width: auto;
+    }
+
+    .home-bg img{
+        width: auto!important;
+        height: 50%!important;
+    }
+
+    .menu{          
+        margin: 0;
+    }
+
+    .menu li{
+        margin-top: 12px!important;
+        text-align: start!important;
+    }
+
+    .menu .slick-list{
+        margin: auto!important;
+        padding: 0!important;
+        width: 88%!important;
+    }
+
+    .furniture-heading{
+        font-size: 1.5em;
+        width: 90%!important;
+    }
+
+    .cards img{
+        margin: 10px!important;
+    }
+
+    .container{
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
+    }
+
+    .couch-container{
+        width: 140px!important;
+        height: 200px!important;
+        margin: 10px!important;
+    }
+
+    .couch-name{
+        padding-top: 8%!important;
+        height: 16%!important;
+        font-size: .5em!important;
+    }
+
+    .couch-info .name{
+        font-size: 3vw!important;
+        margin: 5%!important;
+    }
+
+    .couch-info .info{
+        font-size: 2vw!important;
+        /* margin: 0!important; */
+    }
+
+    .couch-info button{
+        width: auto!important;
+    }
+
+}
+
+@media (min-width: 992px){
+    .navbar{
+        padding: 1rem 6rem 0rem;
+    }
+
+    .logo-container p{
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: SF compact rounded;
+    }
+
+    .home-bg{
+        width: 90%;
+        height: 50%;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    .menu{
+        position: absolute!important;
+        transform: translateY(-20px);
+        width: 52%!important;
+        margin: 0 19%!important;
+    }
+
+    .furniture-heading{
+        font-size: 2em;
+    }
+
+    .slick-slider{
+        width: 87%;
+        margin: auto;
+    }
+
+    .cards img{
+        margin: 20px;
+    }
+
+    .container{
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .staging-menu{
+        width: 54%!important;
+        transform: translateY(0)!important;
+        border-radius: 2px!important;
+        margin: auto 18%!important;
+        padding: 5%!important;
+    }
+
+    .staging-menu input[name="request"]{
+        width: 55%!important;
+    }
+
+    .staging-menu button{
+        width: 30%!important;
+        height: 70%!important;
+    }
+
+    .staging-menu input[name="location"]{
+        width: 45%!important;
+    }
+
+    .staging-menu input[type="date"]{
+        width: 62%!important;
+    }
+}
+
+#navbarMenu{
+    align-self: start;
+}
+
+.navbar-light .navbar-nav .nav-link, .dropdown-item {
+    color: rgba(0,0,0,.8);
+    font-family: SF Pro Rounded Regular;
+    font-size: 13px;
+    padding: 8px 25px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 8h22M4 15h22M4 22h22'/%3e%3c/svg%3e");
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: 'Noteworthy';
+    font-size: 23px;
+}
+
+.nav-item .sign-in-btn{
+    font-size: 20px;
+    padding: 2px 8px;
+}
+
+.home-bg img{
+    width: 100%;
+}
+
+.menu{
+    background: white;
+    height: 42px;
+    padding: 0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)!important;
+    z-index: 1;
+}
+
+.menu li{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu a{
+    color: black;
+    font-size: 11px;
+    font-family: SF Pro Rounded Regular;
+}
+
+.menu a:hover{
+    text-decoration: none;
+}
+
+.staging-menu{
+    position: absolute;
+    background: #EEF9EA;
+    opacity: .9;
+    width: 90%;
+    height: 48%;
+    transform: translateY(-10px);
+    z-index: 0;
+    border-radius: 10px;
+    margin: auto 5%;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+}
+
+.col{
+    text-align: center;
+}
+
+.staging-menu input{
+    margin: 10px;
+    padding: 0 10px;
+    border-radius: 7px;
+    border: 1px solid #797979;
+    height: 35px;
+}
+
+.staging-menu input[name="request"]{
+    width: 80%;
+    margin: auto;
+}
+
+.staging-menu input[name=location]{
+    width: 65%;
+}
+
+.staging-menu button{
+    border: none;
+    background: #E3AD32;
+    border-radius: 10px;
+    width: 45%;
+    height: 65%;
+    margin: 10px auto 0;
+}
+
+.staging-btn{
+    text-align-last: center;
+}
+
+.menu li:focus, .menu li a:focus{
+    outline: none;
+}
+
+
+
+/* Chairs */
+.chairs, .couches{
+    margin-bottom: 70px;
+}
+.furniture-heading{
+    text-transform: uppercase;
+    margin: 30px auto;
+    padding: 5px;
+    font-family: SF Compact;
+    border-bottom: 1px solid black;
+    width: 30%;
+    border-width: 1px;
+    border-color: rgb(173 173 173);
+    text-align: center;
+}
+
+.cards{
+    text-align: center;
+}
+
+.cards img{
+    height: 50%;
+    border-radius: 25px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)!important;
+}
+
+.cards img:focus{
+    outline: none;
+}
+
+.slick-prev{
+    left: auto!important;
+    z-index: 1;
+}
+
+.slick-next{
+    right: 5px!important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: black!important;
+    opacity: .9!important;
+}
+
+
+/* Couches */
+.container{
+    display: grid;
+    justify-content: space-around;
+}
+
+.couch-container{
+    width: 220px;
+    height: 320px;
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)!important;
+}
+
+.couch{
+    position: absolute;
+    left: -50%;
+    right: -50%;
+    top: -50%;
+    bottom: -50%;
+    margin: auto;
+    width: 160%;
+    height: 100%;
+}
+
+.couch-name{
+    position: absolute;
+    padding-top: 4%;
+    margin: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+.couch-container:hover .couch-info{
+    transition: 1s;
+    left: 0;
+}
+
+.couch-container:hover .couch-name{
+    transition: 1s;
+    opacity: 0;
+}
+
+.couch-info{
+    position: absolute;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    font-size: .8em;
+    height: 100%;
+    width: 95%;
+    border-radius: 25px;
+    text-align: end;
+    left: -100%;
+    transition: 1s;
+}
+
+.couch-info div{
+    text-align: center;    
+}
+
+.couch-info .name{
+    margin: 10%;
+}
+
+.couch-info .info{
+    margin-top: 30%;
+}
+
+.couch-info button{
+    background: #EAC707;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    margin: 5% auto;
+}

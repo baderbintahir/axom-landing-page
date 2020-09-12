@@ -1,0 +1,242 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXOM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="stylesheet" type="text/css" href="./slick/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick/slick-theme.css" />
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="logo-container">
+            <a href="#" class="navbar-brand">AXOM</a>
+            <p>"the end of one project means the start of another"</p>
+        </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button"
+                        data-toggle="dropdown">Language</a>
+                    <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <a href="#" class="dropdown-item">English</a>
+                        <a href="#" class="dropdown-item">Russian</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="countryDropdown" role="button"
+                        data-toggle="dropdown">Country</a>
+                    <div class="dropdown-menu" aria-labelledby="countryDropdown">
+                        <a href="#" class="dropdown-item">England</a>
+                        <a href="#" class="dropdown-item">Russia</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link sign-in-btn">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Background -->
+    <section class="home-bg">
+        <ul class="menu">
+            <li class="">
+                <a href="#" class="">DELIVERY</a>
+            </li>
+            <li class="">
+                <a href="#" class="">Upcoming</a>
+            </li>
+            <li class="">
+                <a href="#" class="">New Chairs</a>
+            </li>
+            <li class="">
+                <a href="#" class="">New Couches</a>
+            </li>
+            <li class="staging-btn">
+                <a id="staging-link">Staging</a>
+            </li>
+            <li class="">
+                <a href="#" class="">International</a>
+            </li>
+            <li class="">
+                <a href="#" class="">Development</a>
+            </li>
+            <li class="">
+                <a href="#" class="">Express serv</a>
+            </li>
+        </ul>
+        <div class="staging-menu">
+            <div>
+                <input type="text" placeholder="PICK UP LOCATION" name="location">
+                <input type="text" placeholder="DROP OFF LOCATION" name="location">
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="after">After</label>
+                    <input type="date" name="after">
+                </div>
+    
+                <div class="col">
+                    <label for="before">Before</label>
+                    <input type="date" name="before">
+                </div>
+            </div>
+
+            <input type="text" name="request" id="" placeholder="SPECIAL REQUEST">
+
+            <button type="submit">Search</button>
+        </div>
+        <img src="./img/backgroundimage.jpeg" alt="background-image">
+    </section>
+
+    <!-- Chair Slider -->
+    <div class="chairs">
+        <p class="furniture-heading">new chairs</p>
+        <div class="cards slides">
+            <img src="./img/chair1.jpeg" alt="" style="margin-top: 20px;">
+            <img src="./img/chair2.jpeg" alt="" style="margin-top: 45px;">
+            <img src="./img/chair3.jpeg" alt="" style="margin-top: 45px;">
+            <img src="./img/chair4.jpeg" alt="" style="margin-top: 20px;">
+            <img src="./img/chair5.jpeg" alt="" style="margin-top: 0;">
+        </div>
+    </div>
+
+    <!-- Couch Grid -->
+    <div class="couches">
+        <p class="furniture-heading">new couches</p>
+
+        <div class="container">
+            <div class="couch-container">
+                <img class="couch" src="./img/couch1.jpeg" alt="chouch">
+                <p class="couch-name">orange delight</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+
+            <div class="couch-container">
+                <img class="couch" src="./img/couch2.jpeg" alt="">
+                <p class="couch-name">authentic leather brown</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+
+            <div class="couch-container">
+                <img class="couch" src="./img/couch3.jpeg" alt="">
+                <p class="couch-name">argentinian suede</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+
+            <div class="couch-container">
+                <img class="couch" src="./img/couch4.jpeg" alt="">
+                <p class="couch-name">orange goose 2020</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="couch-container">
+                <img class="couch" src="./img/couch5.jpeg" alt="">
+                <p class="couch-name">spider orange</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+
+            <div class="couch-container">
+                <img class="couch" src="./img/couch6.jpeg" alt="">
+                <p class="couch-name">green 2 seater</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+
+            <div class="couch-container">
+                <img class="couch" src="./img/couch7.jpeg" alt="">
+                <p class="couch-name">light orange 3 seater</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+
+            <div class="couch-container">
+                <img class="couch" src="./img/couch8.jpeg" alt="">
+                <p class="couch-name">cuban leather</p>
+                <div class="couch-info">
+                    <div>
+                        <p class="name">ORANGE DELIGHT</p>
+                        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ad numquam expedita tenetur. Ea totam, atque fuga sed sapiente non hic a facere consectetur tempora? Id nesciunt veritatis quaerat debitis?</p>
+                    </div>
+                    <button>View Sizes</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick/slick.min.js"></script>
+
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+
+</html>
